@@ -1,0 +1,66 @@
+html, body {
+  background-color: rgb(98,4,4);
+  color:white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0;
+  font-family: "Protest Revolution", sans-serif;
+  font-size: 30px;
+  background-image: url(1.png);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+button {
+  background-color: rgb(33,179,240);
+  border: solid 3px black;
+  color:red;
+  border-radius: 200px;
+  font-family: "Jersey 10", sans-serif;
+  font-size: 30px;
+  margin:20px;
+}
+
+button:hover {
+  background-color: rgb(167,12,12);
+  color: black;
+}
+
+.passo{
+  display: none;
+}
+
+.passo.ativo{
+  display:block;
+}
+
+main {
+  max-width: 90%;
+  text-align: center;
+  flex: 1;
+}
+
+img {
+  width: 700px;
+}
+
+footer {
+  color: white;
+  font-family: "Great Vibes", system-ui;
+  font-size: 30px;
+  padding: 10px;
+  text-align: center;
+}
+
+.nome-link {
+  font-family:  "Great Vibes", system-ui;
+  color: red;
+  text-decoration: none;
+  font-size:30px;
+}
+
+.nome-link:hover {
+  text-decoration: underline;
+}
